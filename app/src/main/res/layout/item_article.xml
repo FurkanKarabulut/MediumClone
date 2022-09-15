@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/user_photo"
+        android:layout_width="@dimen/dp_20"
+        android:layout_height="@dimen/dp_20"
+        android:layout_margin="@dimen/dp_25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/RoundCorner" />
+
+    <TextView
+        android:id="@+id/user_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_27"
+        tools:text="Elye in Mobile App Development Publication"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_11"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/user_photo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_25"
+        android:layout_marginTop="@dimen/dp_8"
+        tools:text="An Embarrasing Android App Bug taht can be easily Missed"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_17"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@id/image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/user_photo" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/dp_80"
+        android:layout_height="@dimen/dp_60"
+        android:layout_marginEnd="@dimen/dp_25"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/title" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_25"
+        android:layout_marginTop="@dimen/dp_5"
+        tools:text="Aug 6 . 6 min read "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
+    <TextView
+        android:id="@+id/suggestion_reason"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_25"
+        android:layout_marginTop="@dimen/dp_5"
+        tools:text="Based on your reading history"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/date" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/dp_20"
+        android:background="@color/underline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/suggestion_reason" />
+
+    <ImageView
+        android:id="@+id/vertical_three_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_15"
+        android:layout_marginEnd="@dimen/dp_25"
+        android:background="@drawable/picture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image" />
+
+    <ImageView
+        android:id="@+id/bookmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_15"
+        android:layout_marginEnd="@dimen/dp_25"
+        android:background="@drawable/bookmark"
+        app:layout_constraintEnd_toStartOf="@id/vertical_three_points"
+        app:layout_constraintTop_toBottomOf="@id/image" />
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/star"
+        android:layout_width="@dimen/dp_15"
+        android:layout_height="@dimen/dp_15"
+        android:layout_marginStart="@dimen/dp_7"
+        android:layout_marginTop="@dimen/dp_7"
+        app:layout_constraintStart_toEndOf="@id/date"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

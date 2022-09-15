@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Medium Clone</string>
+    <string name="name">Florent Blot</string>
+    <string name="date">Aug 3 . 4 min read</string>
+    <string name="link">www.huawei.com</string>
+    <string name="follow">Follow</string>
+    <string name="title">Kotlin Flow: Best Practices</string>
+    <string name="info">Phote by Jens Aber on Unsplash</string>
+    <string name="comt_text">1</string>
+    <string name="claps_text">216</string>
+    <string name="responses">Responses</string>
+    <string name="respon">In response to</string>
+    <string name="data">LiveData Coroutine Builder</string>
+    <string name="username">Furkan Karabulut</string>
+    <string name="nmbr_claps">151</string>
+    <string name="nmbr_comt">1</string>
+    <string name="send">Send</string>
+    <string name="currently">There are currently no responses for this story.Be the first to respond</string>
+    <string name="idea">What are your thoughts?</string>
+    <string name="explanation">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="bookmark_clicked">Bookmark clicked</string>
+    <string name="select_an_app">Uygulama Seciniz</string>
+</resources>
